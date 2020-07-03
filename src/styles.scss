@@ -1,0 +1,81 @@
+@import 'assets/scss/modules/fonts';
+//font family
+$primary-font: 'Montserrat';
+$secondry-font: 'Circular Book';
+$third-font: 'Circular';
+$fourth-font: 'Muli';
+
+//colors
+$primary-color: #000000; //black
+$secondry-color: #ffffff; //white
+$third-color: #F2F2F2; //Concrete
+$fourth-color: #E38A8A; //Tonys Pink
+$fifth-color: #BDBDBD; //Silver
+$sixth-color: #484848; //Tundora
+$seventh-color: #8CDF98; //Granny Smith Apple
+$eighth-color: #2D3436; //Outer Space
+$ninth-color: #222222; //Mine Shaft
+$tenth-color: #3B4042; //Cape Cod
+$leventh-color: #74B9FF; //Malibu
+$twelth-color: #FAB1A0; //Rose Bud
+
+//resolution 1336*766
+$primary-font-size: 1.25rem; //20px
+$secondry-font-size: 1rem; //16px
+$heading-font-size: 4.375rem; //70px
+$heading-font-size-two: 3.75rem; //60px
+$sub-heading-font-size: 2.5rem; //40px
+$sub-heading-font-size-two: 1.875rem; //30px
+
+body{
+    margin: 0;
+}
+a{
+    cursor: pointer !important;
+}
+.nav-title{
+    font-family: $secondry-font;
+    font-size: $primary-font-size;
+    color: $primary-color;
+}
+.nav-item{
+    font-family: $secondry-font;
+    font-size: $secondry-font-size;
+    color: $primary-color;
+}
+.home-title{
+    font-family: $secondry-font;
+    color: $third-color;
+    font-size: $heading-font-size;
+    font-weight: 300px;
+}
+.home-title-sec{
+    font-family: $primary-font;
+    color: $fourth-color;
+    font-style: italic;
+}
+.home-sub-title{
+    font-family: $primary-font;
+    color: $fifth-color;
+    font-size: $primary-font-size;
+    font-weight: 500px;
+}
+.destination-title{
+    font-family: $secondry-font;
+    color: $sixth-color;
+    font-size: $heading-font-size-two;
+    font-weight: 300px;
+}
+.destination-title:nth-child(2){
+    color: $seventh-color;
+}
+.destination-detail-header{
+    font-family: $secondry-font;
+    color: $sixth-color;
+    font-size: $sub-heading-font-size;
+}
+.destination-item-name{
+    font-family: $secondry-font;
+    color: $sixth-color;
+    font-size: $sub-heading-font-size-two;
+}

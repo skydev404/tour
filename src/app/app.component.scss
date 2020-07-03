@@ -1,0 +1,31 @@
+.nav {
+    width: 100%;
+    position: absolute;
+}
+.nav-wrapper li, .nav-wrapper div {
+    display: inline-block;
+}
+.right-nav-wrapper {
+    float: right;
+}
+.nav-item {
+    position: relative;
+    padding: 0px 26px;
+    cursor: pointer;
+    // border-right: 1px solid #000;
+}
+.nav-item:after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 12px;
+    top: 6px;
+    background: #000;
+    right: 0;
+}
+.nav-item:last-child:after{
+    display: none;
+}
+.nav-item:last-child {
+    border-right: 0;
+}

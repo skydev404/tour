@@ -1,0 +1,111 @@
+.landing-page{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.home-image-container{
+    position: absolute;
+    background: url(../../assets/travelImages/landing-image.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0px -160px;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+.home-title-container div {
+    display: inline-block;
+}
+.home-container {
+    position: absolute;
+    top: 151px;
+    // left: 334px;
+    width: 100%;
+    text-align: center;
+}
+.home-title {
+    margin-right: 30px;
+}
+.home-sub-title{
+    position: absolute;
+    left: 406px;
+}
+//destination
+.destination-page {
+    height: 100vh;
+    width: 100%;
+}
+.destination-image-container{
+    // position: absolute;
+    background: url(../../assets/travelImages/destination-image.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0px -362px;
+    height: 75vh;
+    width: 100%;
+    z-index: -1;
+}
+.destination-heading-container {
+    position: relative;
+}
+.destination-title-container {
+    top: 86px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    // left: 209px;
+}
+.destination-title:nth-child(2) {
+    // left: 341px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+.destination-detail-container {
+    padding: 10px 20px;
+}
+.destination-detail-items-container > div {
+    display: inline-block;
+}
+.destination-item {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    vertical-align: bottom;
+    margin: 20px 37px;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+}
+.destination-item-img {
+    width: 250px;
+    height: 350px;  
+    background-size: contain;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.destination-item-name-container{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+.destination-item-name{
+    text-align: center;
+    transition: 0.7s;
+}
+.destination-detail-header {
+    text-align: center;
+}
+.destination-item:hover {
+    cursor:pointer;
+}
+.destination-item:hover img.destination-item-img {
+    opacity: 1;
+    transition: 0.7s;
+}
+.destination-item:hover .destination-item-name {
+    color: #fff;
+    transition: 0.7s;
+}
+
